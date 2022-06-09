@@ -20,8 +20,8 @@ body {
     background: linear-gradient(var(--Soft-violet), var(--Soft-blue));
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 15px;
+    padding: 0 1rem;
     height: 110vh;
-    padding: 0 3rem;
     overflow: hidden;
 }
 
@@ -140,14 +140,14 @@ main {
 
 @media (max-width: 700px) {
     body {
-        padding-top: 5rem;
+        padding-top: 3rem;
         overflow: scroll;
     }
 
     .container {
         background-size: 80%;
         background-repeat: no-repeat;
-        background-position: 50% -55%;
+        background-position: 50% -40%;
         flex-direction: column;
         padding-bottom: 3rem;
     }
